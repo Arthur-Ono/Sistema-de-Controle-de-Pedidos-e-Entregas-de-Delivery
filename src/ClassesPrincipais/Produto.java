@@ -1,3 +1,5 @@
+package ClassesPrincipais;
+
 public class Produto {
 
     static int counter = 1;
