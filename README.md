@@ -17,7 +17,7 @@
   
 ## Principais módulos e classes
   
-### 1. Classe Cliente
+### 1. Classe ClassesPrincipais.Cliente
     Atributos:
       idCliente  
       nome
@@ -28,7 +28,7 @@
       atualizarDados()
       exibirDados()
   
-  ### 2. Classe Produto
+  ### 2. Classe ClassesPrincipais.Produto
     Atributos:
       idProduto
       nome
@@ -39,7 +39,7 @@
       atualizarEstoque()
       exibirProduto()
 
-  ### 3. Classe Pedido
+  ### 3. Classe ClassesPrincipais.Pedido
     Atributos:
       idPedido
       cliente
@@ -54,7 +54,7 @@
       finalizarPedido()
       exibirResumo()
       
-  ### 4. Classe ItemPedido
+  ### 4. Classe ClassesPrincipais.ItemPedido
     Atributos:
       produto
       quantidade
@@ -62,7 +62,7 @@
     Métodos:
       calcularSubtotal()
       
-  ### 5. Classe DeliverySystem
+  ### 5. Classe ClassesPrincipais.DeliverySystem
   #### Classe central do sistema.
     Atributos:
       lista de clientes
@@ -80,13 +80,13 @@
       navegarPedidosAtivos()
       
   ## Uso obrigatório das estruturas
-  ### Lista simplesmente encadeada
+  ### Estruturas.Lista simplesmente encadeada
     Deve Ser usada para:
       lista de itens do pedido;
       lista de produtos cadastrados;
       lista de clientes.
       Cada pedido pode conter uma lista simplesmente encadeada de itens.
-  ### Lista duplamente encadeada
+  ### Estruturas.Lista duplamente encadeada
     Deve ser usada para:
       pedidos ativos em edição;
       navegação entre pedidos abertos.
